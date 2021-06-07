@@ -1,2 +1,19 @@
 @import url("./layout.css");
 @import url("./nav.css");
+@import url("./footer.css");
+
+/* Main colors*/
+
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #0e80fa;
+  --main-gray: #222;
+  --main-black: #162945;
+}
+
+/* Link */
+
+a {
+  color: inherit;
+}

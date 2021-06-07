@@ -49,7 +49,7 @@
     height: 1px;
     width: 100%;
     background: #fff;
-    background-color: #061c3d;
+    background-color: var(--main-black);
     border-radius: 2px;
     opacity: 1;
     left: 0;
