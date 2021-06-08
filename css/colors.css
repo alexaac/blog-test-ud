@@ -1,0 +1,95 @@
+/* Main colors*/
+
+:root {
+  --main-red: #bd0878;
+  --main-red-hover: #790d4f;
+  --main-accent: #057f9c;
+  --main-accent-hover: #045063;
+  --main-white: #f0f0f0;
+  --main-pure-white: #fff;
+  --main-black: #162945;
+  --main-pure-black: #000;
+  --main-blue: #0e80fa;
+  --main-text: #4d4e53;
+  --main-text-inverted: #fff;
+  --main-gray: #4d4e53;
+  --main-light-gray: #d7d7d7;
+  --main-success: #4ca10f;
+  --main-success-hover: #326d08;
+  --main-warning: #c0870b;
+  --main-warning-hover: rgb(129, 95, 2);
+  --main-error: #c03344;
+  --main-error-hover: #6e0713;
+}
+
+.main-red {
+  color: var(--main-red);
+}
+
+.main-red-bk {
+  background-color: var(--main-red);
+}
+
+.main-accent {
+  color: var(--main-accent);
+}
+
+.main-accent-bk {
+  background-color: var(--main-accent);
+}
+
+.main-white {
+  color: var(--main-white);
+}
+
+.main-white-bk {
+  background-color: var(--main-white);
+}
+
+.main-pure-white-bk {
+  background-color: var(--main-pure-white);
+}
+
+.main-black {
+  color: var(--main-black);
+}
+
+.main-black-bk {
+  background-color: var(--main-black);
+}
+
+.main-pure-black {
+  color: var(--main-pure-black);
+}
+
+.main-pure-black-bk {
+  background-color: var(--main-pure-black);
+}
+
+.main-blue {
+  color: var(--main-blue);
+}
+
+.main-blue-bk {
+  background-color: var(--main-blue);
+}
+
+.main-gray {
+  color: var(--main-gray);
+}
+
+.main-gray-bk {
+  background-color: var(--main-gray);
+}
+
+.main-success-bk {
+  background-color: var(--main-success);
+}
+
+.main-warning-bk {
+  background-color: var(--main-warning);
+}
+
+.main-error-bk {
+  background-color: var(--main-error);
+}

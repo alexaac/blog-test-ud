@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Design System for MapStuff Blog.">
+
+    <title>Design System</title>
+
+    <link rel="icon" href="icon.ico" />
+    <link rel="shortcut icon" href="icon.ico" />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header class="header">
+        <div class="nav">
+          <div class="nav-brand">
+            <a href="https://alexaac.github.io/test-ud" class="nav-brand-link">
+              <img
+                src="img/logo_text_black.svg"
+                alt="MapStuff brand logo"
+                class="nav-brand"
+            /></a>
+          </div>
+          <div class="nav-mobile-button">
+            <span></span> <span></span> <span></span> <span></span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <nav class="navbar">
+          <span class="title">Design System</span>
+
+          <ul class="nav-list">
+            <li><a href="#Logo" class="nav-link">Logo</a></li>
+            <li><a href="#Colors" class="nav-link">Colors</a></li>
+            <li><a href="#Typography" class="nav-link">Typography</a></li>
+
+            <li><a href="#Buttons" class="nav-link">Buttons</a></li>
+            <li><a href="#Cards" class="nav-link">Cards</a></li>
+
+            <li><a href="#Author" class="nav-link">Author Info</a></li>
+            <li><a href="#Social" class="nav-link">Social Sharing</a></li>
+
+            <li><a href="#Grid" class="nav-link">Grid</a></li>
+            <li><a href="#Flex" class="nav-link">Flex</a></li>
+
+            <li><a href="#Header" class="nav-link">Header</a></li>
+            <li><a href="#Footer" class="nav-link">Footer</a></li>            
+          </ul>
+        </nav>
+        <main class="main-doc">
+          <div class="description">
+            <h1>Map Stuff Design System</h1>
+
+            <section id="Logo" class="main-section">
+              <h2>Logo</h2>
+              <article>
+                <p>
+                  The logo helps our users identify our brand when using our services.</p>
+                <p>
+                    Example 
+                </p>
+                <div class="main-black-bk back">
+                  <img src="img/logo_text_white.svg" alt="MapStuff logo white on black, with text." height="150px">
+                </div>
+                <div class="main-white-bk back">
+                  <img src="img/logo_text_black.svg" alt="MapStuff logo black on white, with text." height="150px">
+                </div>
+                <div class="main-black-bk back">
+                  <img src="img/logo_text_white.svg" alt="MapStuff logo white on black, with text." height="100px">
+                </div>
+                <div class="main-white-bk back">
+                  <img src="img/logo_text_black.svg" alt="MapStuff logo black on white, with text." height="100px">
+                </div>
+                <div class="main-black-bk back">
+                  <img src="img/logo_text_white.svg" alt="MapStuff logo white on black, with text.">
+                </div>
+                <div class="main-white-bk back">
+                  <img src="img/logo_text_black.svg" alt="MapStuff logo black on white, with text.">
+                </div>
+              </article>
+            </section>
+            <section id="Colors" class="main-section">
+              <h2>Colors</h2>
+              <article>
+                <p>
+                  The colours set out below will form the base colours for all components, with a secondary palette introduced to complement primary colours where an alternate colour is required. Colours are presented here by their name and Hex value.
+                </p>
+                <h3>Primary colours</h3>
+                <div class="items-group">
+                  <div class="items-column">
+                    <figure class="items-img main-red-bk">
+                        <figcaption class="main-white">#bd0878</figcaption>
+                    </figure>
+                    <p>main-red</p>
+                  </div>
+                    <div class="items-column">
+                      <figure class="items-img main-accent-bk">
+                          <figcaption class="main-white">#057f9c</figcaption>
+                      </figure>
+                      <p>main-accent</p>
+                    </div>
+                  <div class="items-column">
+                    <figure class="items-img main-white-bk">
+                        <figcaption>#f0f0f0</figcaption>
+                    </figure>
+                    <p>main-white</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-black-bk">
+                        <figcaption class="main-white">#162945</figcaption>
+                    </figure>
+                    <p>main-black</p>
+                  </div>
+                </div>
+                <h3>Secondary colours</h3>
+                <div class="items-group">
+                  <div class="items-column">
+                    <figure class="items-img main-gray-bk">
+                        <figcaption class="main-white">#4d4e53</figcaption>
+                    </figure>
+                    <p>Text - main-gray</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-blue-bk">
+                        <figcaption class="main-white">#0e80fa</figcaption>
+                    </figure>
+                    <p>Hyperlink - main-blue</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-pure-white-bk">
+                        <figcaption>#fff</figcaption>
+                    </figure>
+                    <p>main-pure-white</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-pure-black-bk">
+                        <figcaption class="main-white">#000</figcaption>
+                    </figure>
+                    <p>main-pure-black</p>
+                  </div>
+                </div>
+                <h3>Tertiary colours</h3>
+                <div class="items-group">
+                  <div class="items-column">
+                    <figure class="items-img main-success-bk">
+                        <figcaption>#4ca10f</figcaption>
+                    </figure>
+                    <p>main-success</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-warning-bk">
+                        <figcaption>#bd8b03</figcaption>
+                    </figure>
+                    <p>main-warning</p>
+                  </div>
+                  <div class="items-column">
+                    <figure class="items-img main-error-bk">
+                        <figcaption class="main-white">#c03344</figcaption>
+                    </figure>
+                    <p>main-error</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <section id="Typography" class="main-section">
+              <h2>Typography</h2>
+              <article>            
+                <p>
+                  Typography is the structure of every well designed interface. It is used to guide users through the interface and help them understand the logic behind the interface intuitively.
+                </p>
+                <p>
+                  MapStuff uses Sacramento for headers and Barlow Semi Condensed for text.
+                </p>
+                <p>
+                </p>
+                  <a href="https://fonts.google.com/specimen/Sacramento"><span>Sacramento font on Google fonts</span></a>
+                <p>
+                  <a href="https://fonts.google.com/specimen/Barlow+Semi+Condensed"><span>Barlow font on Google fonts</span></a>
+                </p>
+                <h3>Type scale</h3>
+                <p>
+                  The type scale goes from 6.76(px)(0.422rem) to 67.34(px)(4.209rem). Base size 16px, scale Perfect Fourth.
+                </p>
+                <p>
+                  <a href="https://type-scale.com/">Type Scale.</a>
+                </p>
+                <h1>h1 heading</h1>
+                <h2>h2 heading</h2>
+                <h3>h3 heading</h3>
+                <h4>h4 heading</h4>
+                <h5>h5 heading</h5>
+                <p>Paragraph</p>
+                <p>
+                  <span class="helper-text">Helper Text</span>
+                </p>
+                <p>
+                  <span class="copyright-text">Copyright Text</span>
+                </p>
+                <p>
+                  <span class="extra-small-text">Extra Small Text</span>
+                </p>
+              </article>
+            </section>
+            <section id="Grid" class="main-section">
+              <h2>Grid</h2>
+              <article>            
+                <p>
+                  Layout
+                </p>
+              </article>
+            </section>
+            <section id="Flex" class="main-section">
+              <h2>Flex</h2>
+              <article>            
+                <p>
+                  Layout
+                </p>
+              </article>
+            </section>
+            <section id="Header" class="main-section">
+              <h2>Header</h2>
+              <article>            
+                <p>
+                  Header
+                </p>
+              </article>
+            </section>
+            <section id="Footer" class="main-section">
+              <h2>Footer</h2>
+              <article>            
+                <p>
+                  Footer
+                </p>
+              </article>
+            </section>
+            <section id="Buttons" class="main-section">
+              <h2>Buttons</h2>
+              <article>            
+                <p>
+                  Buttons are action elements, they allow users to interact with the product. They can be of different sizes, colors and status.
+                </p>
+                <h3>Main buttons</h3>
+                <p>
+                  The primary button is plain with a background. For the secondary button, the design system provides a second type of button called outline.
+                </p>
+                <div class="items-group">
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-primary">#bd0878</button>
+                    <p>Primary button</p>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-secondary">#bd0878</button>
+                    <p>Secondary button</p>
+                  </div>
+                </div>
+                <h3>Tertiary buttons</h3>
+                <p>
+                  Predefined button styles, each serving its own semantic purpose according to the theme colors palette.
+                </p>
+                <div class="items-group">
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-success">#4ca10f</button>
+                    <p>Success</p>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-warning">#bd8b03</button>
+                    <p>Warning</p>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-error">#c03344</button>
+                    <p>Error</p>
+                  </div>
+                </div>
+                <div class="items-group">
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-success-sec">#4ca10f</button>
+                    <p>Success secondary</p>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-warning-sec">#bd8b03</button>
+                    <p>Warning secondary</p>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-error-sec">#c03344</button>
+                    <p>Error secondary</p>
+                  </div>
+                </div>
+                <div class="items-group">
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-primary disabled">#d7d7d7</button>
+                    <p>Disabled</p>
+                  </div>
+                </div>
+                <h3>Button Size</h3>
+                <p>
+                  Larger or smaller buttons.
+                </p>
+                <div class="items-group">
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-primary stuff-btn-sm">#bd0878</button>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-primary">#bd0878</button>
+                  </div>
+                  <div class="items-column">
+                    <button type="button" class="stuff-btn stuff-btn-primary stuff-btn-lg">#bd0878</button>
+                  </div>
+                </div>
+              </article>
+            </section>
+            <section id="Cards" class="main-section">
+              <h2>Cards</h2>
+              <article>            
+                <p>
+                  Cards
+                </p>
+              </article>
+            </section>
+            <section id="Author" class="main-section">
+              <h2>Author Info</h2>
+              <article>            
+                <p>
+                  Author Info
+                </p>
+              </article>
+            </section>
+            <section id="Social" class="main-section">
+              <h2>Social Sharing</h2>
+              <article>            
+                <p>
+                  Social Sharing
+                </p>
+              </article>
+            </section>
+          </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <div class="footer-inner-flex">
+            <div>© MapStuff 2021</div>
+            <a href="#" class="footer-link">Terms</a>
+            <a href="#" class="footer-link">Privacy</a>
+          </div>
+          <div class="footer-inner-social">
+            <a
+              href="https://www.github.com/mapstuff"
+              target="_blank"
+              rel="nofollow"
+              class="social"
+            >
+              <img src="img/github.svg" alt="GitHub" />
+            </a>
+
+            <a
+              href="https://www.facebook.com/mapstuff"
+              target="_blank"
+              rel="nofollow"
+              class="social"
+            >
+              <img src="img/facebook.svg" alt="Facebook" />
+            </a>
+
+            <a
+              href="https://twitter.com/mapstuff"
+              target="_blank"
+              rel="nofollow"
+              class="social"
+            >
+              <img src="img/twitter.svg" alt="Twitter" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/mapstuff"
+              target="_blank"
+              rel="nofollow"
+              class="social"
+            >
+              <img src="img/linkedin.svg" alt="Linkedin" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,10 +1,11 @@
 .footer {
-  padding: 3.5rem 3rem 2.5rem;
+  padding: 2rem 3rem 2.5rem;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
   color: var(--main-black);
+  background-color: var(--main-white);
 }
 
 /* Footer Links and Social Media Links Groups */
@@ -52,9 +53,8 @@
   margin-left: 1rem;
 }
 
-.footer-link:hover {
-  color: var(--main-blue);
-  text-decoration: none;
+.footer-link {
+  color: inherit;
 }
 
 /* Social Media Links */

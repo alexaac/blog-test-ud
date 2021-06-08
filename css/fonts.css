@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "sacramento";
+  src: url("../fonts/Sacramento-Regular.ttf");
+}
+
+.sacramento {
+  font-family: "sacramento";
+}
+
+@font-face {
+  font-family: "barlow-semi-condensed";
+  src: url("../fonts/BarlowSemiCondensed-Regular.ttf");
+}
+
+.barlow {
+  font-family: "barlow-semi-condensed";
+}
+
+/* 
+  Optional: direct import from Google Fonts 
+  @import url('https://fonts.googleapis.com/css?family=Sacramento:400'); 
+  @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400');
+*/
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  font-family: "barlow", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title {
+  font-family: "Sacramento", cursive;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title {
+  margin: 3rem 0 1.38rem;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4,
+.title {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small,
+.helper-text {
+  font-size: 0.75rem;
+}
+
+.copyright-text {
+  font-size: 0.563rem;
+}
+
+.extra-small-text {
+  font-size: 0.422rem;
+}

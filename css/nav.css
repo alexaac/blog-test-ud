@@ -3,7 +3,7 @@
 .nav {
   padding: 1.25rem 3rem 1rem;
   border-bottom: 1px none rgba(138, 152, 158, 0.3);
-  background-color: #fff;
+  background-color: var(--main-white);
 
   display: -webkit-box;
   display: -webkit-flex;

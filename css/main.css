@@ -1,19 +1,29 @@
+@import url("./buttons.css");
+@import url("./colors.css");
+@import url("./design.css");
 @import url("./layout.css");
 @import url("./nav.css");
+@import url("./fonts.css");
 @import url("./footer.css");
 
-/* Main colors*/
+html,
+body {
+  color: var(--main-text);
+  background-color: var(--main-white-bk);
+}
 
-:root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #0e80fa;
-  --main-gray: #222;
-  --main-black: #162945;
+h1,
+h2,
+h3,
+h4,
+h5,
+.title {
+  color: var(--main-accent);
 }
 
 /* Link */
 
-a {
-  color: inherit;
+a:hover {
+  color: var(--main-blue);
+  text-decoration: none;
 }
