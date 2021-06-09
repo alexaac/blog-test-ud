@@ -20,10 +20,3 @@ h5,
 .title {
   color: var(--main-accent);
 }
-
-/* Link */
-
-a:hover {
-  color: var(--main-blue);
-  text-decoration: none;
-}
