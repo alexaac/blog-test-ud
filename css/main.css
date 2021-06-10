@@ -1,22 +1,17 @@
+@import url("./author.css");
 @import url("./buttons.css");
+@import url("./card.css");
+@import url("./container.css");
 @import url("./colors.css");
 @import url("./design.css");
+@import url("./form.css");
 @import url("./layout.css");
 @import url("./nav.css");
-@import url("./fonts.css");
 @import url("./footer.css");
+@import url("./section.css");
+@import url("./social.css");
+@import url("./typography.css");
 
-html,
-body {
-  color: var(--main-text);
-  background-color: var(--main-white-bk);
-}
+@charset 'UTF-8';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-.title {
-  color: var(--main-accent);
-}
+

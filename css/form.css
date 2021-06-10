@@ -1,0 +1,66 @@
+.ms-wide {
+  position: relative;
+  padding: 3rem 2rem 4rem;
+  background-color: var(--main-black);
+  text-align: center;
+}
+
+.ms-wide-form {
+  position: relative;
+}
+
+.ms-wide-label {
+  position: absolute;
+  opacity: 0;
+}
+
+.ms-wide-input {
+  height: 3.5rem;
+  margin-bottom: 0px;
+  padding: 0.5rem 1.5rem;
+  border-style: none;
+  border-width: 1px;
+  border-color: var(--main-black);
+  font-size: 0.9375rem;
+  margin-bottom: 1rem;
+}
+
+.ms-wide-submit {
+  text-align: right;
+}
+
+.ms-form-info-flex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ms-wide-bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 990px) {
+  .ms-wide {
+    margin-right: -2rem;
+    margin-left: -2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .ms-wide {
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}

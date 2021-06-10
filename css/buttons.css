@@ -1,6 +1,6 @@
 /* Buttons */
 
-.stuff-btn {
+.ms-btn {
   display: inline-flex;
   position: relative;
   vertical-align: middle;
@@ -18,7 +18,6 @@
   border-radius: 999px;
   text-decoration: none;
   cursor: pointer;
-  -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   font-weight: 300;
   font-family: Roboto, Avenir, Helvetica, Arial, sans-serif;
@@ -29,12 +28,12 @@
 
 /* Primary button */
 
-.stuff-btn-primary {
+.ms-btn-primary {
   color: var(--main-text-inverted);
   background: var(--main-red);
 }
 
-.stuff-btn-primary:hover {
+.ms-btn-primary:hover {
   text-decoration: none;
   background: var(--main-red-hover);
   outline: 0;
@@ -42,8 +41,8 @@
 
 /* Disabled */
 
-.stuff-btn-primary.disabled,
-.stuff-btn-primary:disabled {
+.ms-btn-primary.disabled,
+.ms-btn-primary:disabled {
   color: var(--main-gray);
   background-color: var(--main-light-gray);
   border-color: transparent;
@@ -52,14 +51,14 @@
 
 /* Secondary button */
 
-.stuff-btn-secondary {
+.ms-btn-secondary {
   color: var(--main-red);
   background-color: transparent;
   background-image: none;
   border: 1px solid var(--main-red);
 }
 
-.stuff-btn-secondary:hover {
+.ms-btn-secondary:hover {
   color: var(--main-text-inverted);
   background: var(--main-red);
   border: none;
@@ -69,25 +68,25 @@
 
 /* Success */
 
-.stuff-btn-success {
+.ms-btn-success {
   color: var(--main-text-inverted);
   background: var(--main-success);
 }
 
-.stuff-btn-success:hover {
+.ms-btn-success:hover {
   text-decoration: none;
   background: var(--main-success-hover);
   outline: 0;
 }
 
-.stuff-btn-success-sec {
+.ms-btn-success-sec {
   color: var(--main-success);
   background-color: transparent;
   background-image: none;
   border: 1px solid var(--main-success);
 }
 
-.stuff-btn-success-sec:hover {
+.ms-btn-success-sec:hover {
   color: var(--main-text-inverted);
   background: var(--main-success);
   border: none;
@@ -95,25 +94,25 @@
 
 /* Warning */
 
-.stuff-btn-warning {
+.ms-btn-warning {
   color: var(--main-pure-black);
   background: var(--main-warning);
 }
 
-.stuff-btn-warning:hover {
+.ms-btn-warning:hover {
   text-decoration: none;
   background: var(--main-warning-hover);
   outline: 0;
 }
 
-.stuff-btn-warning-sec {
+.ms-btn-warning-sec {
   color: var(--main-warning);
   background-color: transparent;
   background-image: none;
   border: 1px solid var(--main-warning);
 }
 
-.stuff-btn-warning-sec:hover {
+.ms-btn-warning-sec:hover {
   color: var(--main-pure-black);
   background: var(--main-warning);
   border: none;
@@ -121,25 +120,25 @@
 
 /* Error */
 
-.stuff-btn-error {
+.ms-btn-error {
   color: var(--main-text-inverted);
   background: var(--main-error);
 }
 
-.stuff-btn-error:hover {
+.ms-btn-error:hover {
   text-decoration: none;
   background: var(--main-error-hover);
   outline: 0;
 }
 
-.stuff-btn-error-sec {
+.ms-btn-error-sec {
   color: var(--main-error);
   background-color: transparent;
   background-image: none;
   border: 1px solid var(--main-error);
 }
 
-.stuff-btn-error-sec:hover {
+.ms-btn-error-sec:hover {
   color: var(--main-text-inverted);
   background: var(--main-error);
   border: none;
@@ -147,7 +146,7 @@
 
 /* Button Size */
 
-.stuff-btn-sm {
+.ms-btn-sm {
   height: 32px;
   padding: 0 1rem;
   font-weight: 400;
@@ -156,7 +155,7 @@
   text-transform: none;
 }
 
-.stuff-btn-lg {
+.ms-btn-lg {
   height: 60px;
   padding: 0 1.5rem;
   font-weight: 700;
