@@ -165,10 +165,12 @@ img {
 
 /***************************************/
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991.98px) {
+  /* Small and medium devices */
+
   .ms-overlay-info-flex {
     position: relative;
-    padding: 3rem 3rem;
+    padding: 3rem;
   }
 
   .img-link.wide {
@@ -176,7 +178,8 @@ img {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767.98px) {
+  /* Extra small devices and small devices */
   .ms-post-grid {
     grid-row-gap: 1rem;
     grid-template-columns: 1fr;
@@ -201,5 +204,14 @@ img {
     grid-column-start: 1;
     grid-row-end: 2;
     grid-row-start: 1;
+  }
+
+  .ms-overlay-info-flex {
+    position: relative;
+    padding: 1rem;
+  }
+
+  .img-link.wide {
+    padding-top: 0%;
   }
 }

@@ -104,7 +104,8 @@
 
 /* Media */
 
-@media only screen and (max-width: 770px) {
+@media screen and (max-width: 767.98px) {
+  /* Extra small and small devices */
   .nav-list {
     border: 1px solid;
     height: 207px;
@@ -130,7 +131,8 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 575.98px) {
+  /* Extra small devices (portrait phones, less than 576px) */
   .main-doc {
     margin-left: -10px;
   }

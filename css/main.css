@@ -1,7 +1,6 @@
 @import url("./author.css");
 @import url("./buttons.css");
 @import url("./card.css");
-@import url("./container.css");
 @import url("./colors.css");
 @import url("./design.css");
 @import url("./form.css");
@@ -13,5 +12,3 @@
 @import url("./typography.css");
 
 @charset 'UTF-8';
-
-
