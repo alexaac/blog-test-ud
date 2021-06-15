@@ -1,0 +1,246 @@
+/* Article */
+
+/* Article footer */
+.article-footer-container {
+  max-width: 555px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.article-footer-container.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.article-footer-author-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  text-align: left;
+}
+
+/* Article Tags */
+
+.article-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.article-tag {
+  margin: 0 0.25rem;
+}
+
+.article-tag-link {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.3125rem 0.625rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--main-grey);
+  border-radius: 4px;
+  transition: border-color 100ms ease, color 100ms ease;
+  color: var(--main-gray);
+  text-decoration: none;
+  background-image: none;
+  white-space: nowrap;
+}
+
+.article-tag-link:hover {
+  border-color: var(--main-white);
+  color: var(--main-white);
+}
+
+/* Main Container */
+.article-container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Hero image and content */
+.article-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 646px;
+  max-height: 80vh;
+  min-height: 400px;
+  background-image: url("../img/posts/post_img.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.ms-article-category {
+  font-family: "Sacramento", cursive;
+  color: var(--main-pure-white);
+  font-weight: bolder;
+}
+
+.article-hero p,
+.article-hero span {
+  color: var(--main-pure-white);
+}
+
+/* Video */
+.ms-video {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+video {
+  width: 100%;
+}
+
+/* Page navigation */
+.page-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  padding-top: 32px;
+  border-top: 1px solid #ddd;
+}
+
+.page-navigation .previous {
+  background-image: url(../img/left_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 60px;
+  padding-right: 16px;
+}
+
+.page-navigation .next {
+  background-image: url(../img/right_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-right: 60px;
+  padding-left: 16px;
+  text-align: right;
+}
+
+/* Article images */
+.article-img-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.article-img-flex.gallery {
+  max-width: 1100px;
+  overflow: auto;
+  justify-content: initial;
+}
+
+.article-img-flex.gallery.wrap {
+  flex-wrap: wrap;
+}
+
+.article-img-block {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--main-light-gray);
+  padding: 0.5rem;
+  margin: 1rem;
+  min-width: 220px;
+  flex: 0 0 auto;
+}
+
+.article-img-block.sm {
+  max-width: 300px;
+}
+
+.article-img-block.md {
+  max-width: 600px;
+}
+
+.article-img-block.lg {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  max-width: 1000px;
+}
+
+.article-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-img img {
+  object-fit: cover;
+  object-position: center top;
+  height: 200px;
+}
+
+.article-img.orig img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: initial;
+}
+
+.article-img-desc {
+  padding: 0.2rem;
+  background: var(--main-white);
+  font-size: 8px;
+  color: --var(--main-black);
+  text-align: center;
+  z-index: 2;
+}
+
+.article-img-text {
+  padding-top: 0.7rem;
+  overflow: auto;
+  font-size: 12px;
+  word-wrap: wrap;
+}
+
+.article-text {
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-text p,
+.article-text ul {
+  max-width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 575.98px) {
+  /* Extra small devices (portrait phones, less than 576px) */
+  .article-tags {
+    flex-direction: column;
+  }
+
+  .article-tags-wrap {
+    overflow: hidden;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .article-container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .article-container {
+    max-width: 800px;
+  }
+}

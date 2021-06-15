@@ -1,7 +1,7 @@
 /* Main colors*/
 
 :root {
-  --main-red: #bd0878;
+  --main-red: #da1f92;
   --main-red-hover: #790d4f;
   --main-accent: #057f9c;
   --main-accent-hover: #045063;
@@ -9,15 +9,17 @@
   --main-pure-white: #fff;
   --main-black: #162945;
   --main-pure-black: #000;
-  --main-blue: #0e80fa;
+  --main-blue: #006fc2;
+  --main-light-blue: #1c77c6;
+  --main-transp-blue: rgba(10, 102, 201, 0.2);
   --main-text: #4d4e53;
   --main-text-inverted: #fff;
   --main-gray: #4d4e53;
   --main-light-gray: #d7d7d7;
-  --main-success: #4ca10f;
+  --main-success: #4a8122;
   --main-success-hover: #326d08;
-  --main-warning: #c0870b;
-  --main-warning-hover: rgb(129, 95, 2);
+  --main-warning: #8b7306;
+  --main-warning-hover: #815f02;
   --main-error: #c03344;
   --main-error-hover: #6e0713;
 }
@@ -63,6 +65,10 @@ h5,
   background-color: var(--main-white);
 }
 
+.main-pure-white {
+  color: var(--main-pure-white);
+}
+
 .main-pure-white-bk {
   background-color: var(--main-pure-white);
 }
@@ -87,6 +93,10 @@ h5,
   color: var(--main-blue);
 }
 
+.main-light-blue {
+  color: var(--main-light-blue);
+}
+
 .main-blue-bk {
   background-color: var(--main-blue);
 }
@@ -107,12 +117,24 @@ h5,
   background-color: var(--main-light-gray);
 }
 
+.main-success {
+  color: var(--main-success);
+}
+
 .main-success-bk {
   background-color: var(--main-success);
 }
 
+.main-warning {
+  color: var(--main-warning);
+}
+
 .main-warning-bk {
   background-color: var(--main-warning);
+}
+
+.main-error {
+  color: var(--main-error);
 }
 
 .main-error-bk {

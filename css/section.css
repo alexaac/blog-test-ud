@@ -5,11 +5,11 @@ section {
 }
 
 .section {
-  padding: 3rem 3rem;
+  padding: 2rem;
 }
 
 .section.first {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .section.stretch {
@@ -18,14 +18,14 @@ section {
 }
 
 .section.last {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 @media screen and (max-width: 991.98px) {
   /* Small and medium devices (tablets, 768px and up) */
   .section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .container {
@@ -33,25 +33,25 @@ section {
   }
 
   .section.first {
-    padding-top: 3rem;
+    padding-top: 7rem;
   }
 
   .section.last {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   /* Extra small devices and small devices */
   .section {
-    padding: 1rem 1rem;
+    padding: 0.5rem;
   }
 
   .section.first {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .section.last {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 }

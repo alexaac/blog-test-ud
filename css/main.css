@@ -1,3 +1,4 @@
+@import url("./article.css");
 @import url("./author.css");
 @import url("./buttons.css");
 @import url("./card.css");
@@ -12,3 +13,17 @@
 @import url("./typography.css");
 
 @charset 'UTF-8';
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}

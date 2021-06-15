@@ -1,21 +1,18 @@
 .ms-author-info-flex {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
 }
 
-.author-image {
+.ms-author-image {
   width: 24px;
   height: 24px;
-  -ms-flex-negative: 0;
   flex-shrink: 0;
   border-radius: 50%;
   overflow: hidden;
   margin: 0.5rem;
 }
 
-.author-image.author-image--medium {
+.ms-author-image.post {
   width: 64px;
   height: 64px;
 }

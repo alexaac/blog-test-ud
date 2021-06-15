@@ -23,9 +23,9 @@
   display: block;
   margin-bottom: 0px;
   margin-left: -0.5rem;
-  line-height: 1rem;
   text-decoration: none;
   margin-left: 1rem;
+  background-image: none;
 }
 
 @media screen and (max-width: 767.98px) {

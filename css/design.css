@@ -8,6 +8,7 @@
   margin-bottom: 110px;
   border-right: solid;
   border-color: var(--main-accent);
+  padding-top: 1rem;
 }
 
 .nav-list {
@@ -81,25 +82,6 @@
   border-width: 1px;
   border-radius: 20%;
   border-color: var(--main-light-gray);
-}
-
-/* Helper containers */
-
-.eg-container {
-  border: 1px solid var(--main-light-gray);
-  padding: 0.5rem;
-}
-
-.eg-container-sm {
-  max-width: 300px;
-}
-
-.eg-container-md {
-  max-width: 600px;
-}
-
-.eg-container-lg {
-  max-width: 1000px;
 }
 
 /* Media */

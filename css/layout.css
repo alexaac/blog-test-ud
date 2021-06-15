@@ -1,6 +1,6 @@
 /* Page Wrap */
 
-.ws-wrap-flex {
+.ms-wrap-flex {
   position: relative;
   display: flex;
   min-height: 100vh;
@@ -40,6 +40,37 @@
   clear: both;
 }
 
+/* Helper containers */
+
+.ms-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ms-container.bd {
+  border: 1px solid var(--main-light-gray);
+  padding: 0.5rem;
+}
+
+.ms-container.sm {
+  max-width: 300px;
+}
+
+.ms-container.md {
+  max-width: 600px;
+}
+
+.ms-container.lg {
+  max-width: 1000px;
+}
+
+.ms-page-divider {
+  height: 1px;
+  margin: 3rem -5.375rem 1.5rem;
+  background-color: rgba(138, 152, 158, 0.3);
+}
+
 /* Page breaks after Bootstrap */
 
 @media screen and (max-width: 575.98px) {
@@ -69,4 +100,8 @@
   .container {
     max-width: 1199.98px;
   }
+}
+
+.container {
+  max-width: 992px;
 }

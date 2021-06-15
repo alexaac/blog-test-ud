@@ -56,12 +56,14 @@ h2 {
   font-size: 3.157rem; /* 50.52px */
 }
 
-h3 {
+h3,
+ms-post-category {
   font-size: 2.369rem; /* 37.90px */
 }
 
 h4,
-.title {
+.title,
+.ms-article-category {
   font-size: 1.777rem; /* 28.43px */
 }
 
@@ -93,15 +95,16 @@ small,
 
 /* Links */
 
+a,
 .ms-link {
   color: var(--main-blue);
   text-decoration: none;
   padding-bottom: 2px;
   background-image: linear-gradient(
-      rgba(0, 157, 233, 0.2),
-      rgba(0, 157, 233, 0.2)
+      var(--main-transp-blue),
+      var(--main-transp-blue)
     ),
-    linear-gradient(#0e80fa, #0e80fa);
+    linear-gradient(var(--main-blue), var(--main-blue));
   background-repeat: no-repeat;
   background-position: 0 100%, 0 100%;
   background-size: 100% 1px, 0 1px;
@@ -110,6 +113,7 @@ small,
   transition-duration: 0.3s;
 }
 
+a,
 .ms-link:hover {
   background-size: 100% 1px, 100% 1px;
   text-decoration: none;
@@ -117,20 +121,44 @@ small,
 
 /* Blockquote */
 
-.blockquote {
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 1.5rem;
+blockquote {
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
+}
+
+.ms-article figcaption {
+  color: var(--main-red);
+}
+
+mark {
+  color: var(--main-pure-white);
+  background-color: var(--main-red);
+}
+
+.title {
+  background-image: none;
+  text-decoration: none;
 }
 
 /* Code */
 
-code,
 .ms-code {
   color: inherit;
   font-size: inherit;
   display: inline-block;
-  padding: 0 0.25rem;
   border-radius: 5px;
   background-color: var(--main-white);
   text-align: left;
@@ -139,6 +167,7 @@ code,
   word-break: normal;
   word-wrap: normal;
   padding: 0.3rem;
+  line-height: 1;
 }
 
 @media screen and (max-width: 767.98px) {
@@ -155,16 +184,17 @@ code,
     font-size: 1.602rem; /* 25.63px */
   }
 
-  h3 {
+  h3,
+  ms-post-category {
     font-size: 1.424rem; /* 22.78px */
   }
 
   h4,
-  .title {
+  .title,
+  .ms-article-category {
     font-size: 1.266rem; /* 20.25px */
   }
-
-  h5 {
+  s h5 {
     font-size: 1.125rem; /* 18.00px */
   }
 

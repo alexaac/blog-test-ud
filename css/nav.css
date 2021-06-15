@@ -15,6 +15,10 @@
   height: 60px;
 }
 
+.nav-brand-link {
+  background-image: none;
+}
+
 /* Menu */
 
 .nav-menu-flex {
