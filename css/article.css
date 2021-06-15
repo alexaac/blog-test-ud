@@ -43,18 +43,18 @@
   padding: 0.3125rem 0.625rem;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--main-grey);
+  border-color: var(--color-neutral-400);
   border-radius: 4px;
   transition: border-color 100ms ease, color 100ms ease;
-  color: var(--main-gray);
+  color: var(--color-neutral-400);
   text-decoration: none;
   background-image: none;
   white-space: nowrap;
 }
 
 .article-tag-link:hover {
-  border-color: var(--main-white);
-  color: var(--main-white);
+  border-color: var(--color-neutral-200);
+  color: var(--color-neutral-200);
 }
 
 /* Main Container */
@@ -81,19 +81,19 @@
   text-align: center;
 }
 
-.ms-article-category {
+.mps-article-category {
   font-family: "Sacramento", cursive;
-  color: var(--main-pure-white);
+  color: var(--color-neutral-100);
   font-weight: bolder;
 }
 
 .article-hero p,
 .article-hero span {
-  color: var(--main-pure-white);
+  color: var(--color-neutral-100);
 }
 
 /* Video */
-.ms-video {
+.mps-video {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
@@ -150,7 +150,7 @@ video {
 .article-img-block {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--main-light-gray);
+  border: 1px solid var(--color-neutral-300);
   padding: 0.5rem;
   margin: 1rem;
   min-width: 220px;
@@ -192,9 +192,9 @@ video {
 
 .article-img-desc {
   padding: 0.2rem;
-  background: var(--main-white);
+  background: var(--color-neutral-200);
   font-size: 8px;
-  color: --var(--main-black);
+  color: --var(--color-neutral-500);
   text-align: center;
   z-index: 2;
 }

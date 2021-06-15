@@ -1,6 +1,6 @@
 /* Buttons */
 
-.ms-btn {
+.mps-btn {
   display: inline-flex;
   position: relative;
   vertical-align: middle;
@@ -28,39 +28,39 @@
 
 /* Primary button */
 
-.ms-btn-primary {
-  color: var(--main-text-inverted);
-  background: var(--main-red);
+.mps-btn-primary {
+  color: var(--color-text-inverted);
+  background: var(--color-primary);
 }
 
-.ms-btn-primary:hover {
+.mps-btn-primary:hover {
   text-decoration: none;
-  background: var(--main-red-hover);
+  background: var(--color-primary-hover);
   outline: 0;
 }
 
 /* Disabled */
 
-.ms-btn-primary.disabled,
-.ms-btn-primary:disabled {
-  color: var(--main-gray);
-  background-color: var(--main-light-gray);
+.mps-btn-primary.disabled,
+.mps-btn-primary:disabled {
+  color: var(--color-neutral-400);
+  background-color: var(--color-neutral-300);
   border-color: transparent;
   opacity: 1;
 }
 
 /* Secondary button */
 
-.ms-btn-secondary {
-  color: var(--main-red);
+.mps-btn-secondary {
+  color: var(--color-primary);
   background-color: transparent;
   background-image: none;
-  border: 1px solid var(--main-red);
+  border: 1px solid var(--color-primary);
 }
 
-.ms-btn-secondary:hover {
-  color: var(--main-text-inverted);
-  background: var(--main-red);
+.mps-btn-secondary:hover {
+  color: var(--color-text-inverted);
+  background: var(--color-primary);
   border: none;
 }
 
@@ -68,85 +68,85 @@
 
 /* Success */
 
-.ms-btn-success {
-  color: var(--main-text-inverted);
-  background: var(--main-success);
+.mps-btn-success {
+  color: var(--color-text-inverted);
+  background: var(--color-success);
 }
 
-.ms-btn-success:hover {
+.mps-btn-success:hover {
   text-decoration: none;
-  background: var(--main-success-hover);
+  background: var(--color-success-hover);
   outline: 0;
 }
 
-.ms-btn-success-sec {
-  color: var(--main-success);
+.mps-btn-success-sec {
+  color: var(--color-success);
   background-color: transparent;
   background-image: none;
-  border: 1px solid var(--main-success);
+  border: 1px solid var(--color-success);
 }
 
-.ms-btn-success-sec:hover {
-  color: var(--main-text-inverted);
-  background: var(--main-success);
+.mps-btn-success-sec:hover {
+  color: var(--color-text-inverted);
+  background: var(--color-success);
   border: none;
 }
 
 /* Warning */
 
-.ms-btn-warning {
-  color: var(--main-text-inverted);
-  background: var(--main-warning);
+.mps-btn-warning {
+  color: var(--color-text-inverted);
+  background: var(--color-warning);
 }
 
-.ms-btn-warning:hover {
+.mps-btn-warning:hover {
   text-decoration: none;
-  background: var(--main-warning-hover);
+  background: var(--color-warning-hover);
   outline: 0;
 }
 
-.ms-btn-warning-sec {
-  color: var(--main-warning);
+.mps-btn-warning-sec {
+  color: var(--color-warning);
   background-color: transparent;
   background-image: none;
-  border: 1px solid var(--main-warning);
+  border: 1px solid var(--color-warning);
 }
 
-.ms-btn-warning-sec:hover {
-  color: var(--main-text-inverted);
-  background: var(--main-warning);
+.mps-btn-warning-sec:hover {
+  color: var(--color-text-inverted);
+  background: var(--color-warning);
   border: none;
 }
 
 /* Error */
 
-.ms-btn-error {
-  color: var(--main-text-inverted);
-  background: var(--main-error);
+.mps-btn-error {
+  color: var(--color-text-inverted);
+  background: var(--color-error);
 }
 
-.ms-btn-error:hover {
+.mps-btn-error:hover {
   text-decoration: none;
-  background: var(--main-error-hover);
+  background: var(--color-error-hover);
   outline: 0;
 }
 
-.ms-btn-error-sec {
-  color: var(--main-error);
+.mps-btn-error-sec {
+  color: var(--color-error);
   background-color: transparent;
   background-image: none;
-  border: 1px solid var(--main-error);
+  border: 1px solid var(--color-error);
 }
 
-.ms-btn-error-sec:hover {
-  color: var(--main-text-inverted);
-  background: var(--main-error);
+.mps-btn-error-sec:hover {
+  color: var(--color-text-inverted);
+  background: var(--color-error);
   border: none;
 }
 
 /* Button Size */
 
-.ms-btn-sm {
+.mps-btn-sm {
   height: 32px;
   padding: 0 1rem;
   font-weight: 400;
@@ -155,7 +155,7 @@
   text-transform: none;
 }
 
-.ms-btn-lg {
+.mps-btn-lg {
   height: 60px;
   padding: 0 1.5rem;
   font-weight: 700;

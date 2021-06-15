@@ -3,7 +3,7 @@
 .nav-flex {
   padding: 1.25rem 3rem 1rem;
   border-bottom: 1px none rgba(138, 152, 158, 0.3);
-  background-color: var(--main-white);
+  background-color: var(--color-neutral-200);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@
   margin-bottom: 1rem;
 }
 
-.nav-menu-item.ms-subscribe {
+.nav-menu-item.mps-subscribe {
   padding-left: 1rem;
   margin-bottom: -0.2rem;
 }
@@ -72,8 +72,8 @@
   position: absolute;
   height: 1px;
   width: 100%;
-  background: var(--main-pure-white);
-  background-color: var(--main-black);
+  background: var(--color-neutral-100);
+  background-color: var(--color-neutral-500);
   border-radius: 2px;
   opacity: 1;
   left: 0;

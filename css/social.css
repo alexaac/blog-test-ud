@@ -1,6 +1,6 @@
 /* Social Media Links */
 
-.ms-social-grid {
+.mps-social-grid {
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 1rem;
@@ -10,26 +10,26 @@
   box-sizing: initial;
 }
 
-.ms-social-grid.post {
+.mps-social-grid.post {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
 }
 
-.ms-social {
+.mps-social {
   width: 1.5rem;
   padding: 0.8rem;
   margin: auto;
   background-image: none;
 }
 
-.ms-social-grid-wrap {
+.mps-social-grid-wrap {
   max-width: 240px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.ms-social:hover {
-  color: var(--main-blue);
+.mps-social:hover {
+  color: var(--color-secondary);
 }
 
 .article-social-icon {
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 991.98px) {
   /* Small and medium devices (tablets, 768px and up) */
-  .ms-social-grid {
+  .mps-social-grid {
     margin-top: 1rem;
   }
 }

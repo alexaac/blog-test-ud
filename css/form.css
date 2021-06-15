@@ -1,42 +1,42 @@
-.ms-wide {
+.mps-wide {
   position: relative;
   padding: 3rem 2rem 4rem;
-  background-color: var(--main-black);
+  background-color: var(--color-neutral-500);
   text-align: center;
 }
 
-.ms-wide-form {
+.mps-wide-form {
   position: relative;
 }
 
-.ms-wide-label {
+.mps-wide-label {
   position: absolute;
   opacity: 0;
 }
 
-.ms-wide-input {
+.mps-wide-input {
   height: 3.5rem;
   margin-bottom: 0px;
   padding: 0.5rem 1.5rem;
   border-style: none;
   border-width: 1px;
-  border-color: var(--main-black);
+  border-color: var(--color-neutral-500);
   font-size: 0.9375rem;
   margin-bottom: 1rem;
 }
 
-.ms-wide-submit {
+.mps-wide-submit {
   text-align: right;
 }
 
-.ms-form-info-flex {
+.mps-form-info-flex {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.ms-wide-bg {
+.mps-wide-bg {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 991.98px) {
   /* Small and medium devices */
-  .ms-wide {
+  .mps-wide {
     margin-right: -2rem;
     margin-left: -2rem;
     padding-top: 2rem;
@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 767.98px) {
   /* Extra small devices and small devices */
-  .ms-wide {
+  .mps-wide {
     margin-right: -1rem;
     margin-left: -1rem;
     padding-right: 1rem;

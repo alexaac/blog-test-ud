@@ -1,9 +1,9 @@
-.ms-author-info-flex {
+.mps-author-info-flex {
   display: flex;
   align-items: center;
 }
 
-.ms-author-image {
+.mps-author-image {
   width: 24px;
   height: 24px;
   flex-shrink: 0;
@@ -12,7 +12,7 @@
   margin: 0.5rem;
 }
 
-.ms-author-image.post {
+.mps-author-image.post {
   width: 64px;
   height: 64px;
 }

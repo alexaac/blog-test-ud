@@ -1,33 +1,42 @@
 /* Main colors*/
 
 :root {
-  --main-red: #da1f92;
-  --main-red-hover: #790d4f;
-  --main-accent: #057f9c;
-  --main-accent-hover: #045063;
-  --main-white: #f0f0f0;
-  --main-pure-white: #fff;
-  --main-black: #162945;
-  --main-pure-black: #000;
-  --main-blue: #006fc2;
-  --main-light-blue: #1c77c6;
-  --main-transp-blue: rgba(10, 102, 201, 0.2);
-  --main-text: #4d4e53;
-  --main-text-inverted: #fff;
-  --main-gray: #4d4e53;
-  --main-light-gray: #d7d7d7;
-  --main-success: #4a8122;
-  --main-success-hover: #1b3609;
-  --main-warning: #8b7306;
-  --main-warning-hover: #503a04;
-  --main-error: #c03344;
-  --main-error-hover: #5a0710;
+  /* primary colors */
+  --color-primary: #da1f92;
+  --color-primary-hover: #790d4f;
+  --color-accent: #057f9c;
+  --color-accent-hover: #045063;
+
+  /* neutral colors */
+  --color-neutral-100: #fff;
+  --color-neutral-200: #f0f0f0;
+  --color-neutral-300: #d7d7d7;
+  --color-neutral-400: #4d4e53;
+  --color-neutral-500: #162945;
+  --color-neutral-600: #000;
+
+  /* secondary colors */
+  --color-secondary: #006fc2;
+  --color-secondary-light: #1c77c6;
+  --color-secondary-transp: rgba(10, 102, 201, 0.2);
+
+  /* text */
+  --color-text: #4d4e53;
+  --color-text-inverted: #fff;
+
+  /* tertiary colors */
+  --color-success: #4a8122;
+  --color-success-hover: #1b3609;
+  --color-warning: #8b7306;
+  --color-warning-hover: #503a04;
+  --color-error: #c03344;
+  --color-error-hover: #5a0710;
 }
 
 html,
 body {
-  color: var(--main-text);
-  background-color: var(--main-white-bk);
+  color: var(--color-text);
+  background-color: var(--color-neutral-200-bk);
 }
 
 h1,
@@ -36,107 +45,107 @@ h3,
 h4,
 h5,
 .title {
-  color: var(--main-accent);
+  color: var(--color-accent);
 }
 
 /* Colors*/
 
-.main-red {
-  color: var(--main-red);
+.color-primary {
+  color: var(--color-primary);
 }
 
-.main-red-bk {
-  background-color: var(--main-red);
+.color-primary-bk {
+  background-color: var(--color-primary);
 }
 
-.main-accent {
-  color: var(--main-accent);
+.color-accent {
+  color: var(--color-accent);
 }
 
-.main-accent-bk {
-  background-color: var(--main-accent);
+.color-accent-bk {
+  background-color: var(--color-accent);
 }
 
-.main-white {
-  color: var(--main-white);
+.color-neutral-200 {
+  color: var(--color-neutral-200);
 }
 
-.main-white-bk {
-  background-color: var(--main-white);
+.color-neutral-200-bk {
+  background-color: var(--color-neutral-200);
 }
 
-.main-pure-white {
-  color: var(--main-pure-white);
+.color-neutral-100 {
+  color: var(--color-neutral-100);
 }
 
-.main-pure-white-bk {
-  background-color: var(--main-pure-white);
+.color-neutral-100-bk {
+  background-color: var(--color-neutral-100);
 }
 
-.main-black {
-  color: var(--main-black);
+.color-neutral-500 {
+  color: var(--color-neutral-500);
 }
 
-.main-black-bk {
-  background-color: var(--main-black);
+.color-neutral-500-bk {
+  background-color: var(--color-neutral-500);
 }
 
-.main-pure-black {
-  color: var(--main-pure-black);
+.color-neutral-600 {
+  color: var(--color-neutral-600);
 }
 
-.main-pure-black-bk {
-  background-color: var(--main-pure-black);
+.color-neutral-600-bk {
+  background-color: var(--color-neutral-600);
 }
 
-.main-blue {
-  color: var(--main-blue);
+.color-secondary {
+  color: var(--color-secondary);
 }
 
-.main-light-blue {
-  color: var(--main-light-blue);
+.color-secondary-light {
+  color: var(--color-secondary-light);
 }
 
-.main-blue-bk {
-  background-color: var(--main-blue);
+.color-secondary-bk {
+  background-color: var(--color-secondary);
 }
 
-.main-gray {
-  color: var(--main-gray);
+.color-neutral-400 {
+  color: var(--color-neutral-400);
 }
 
-.main-gray-bk {
-  background-color: var(--main-gray);
+.color-neutral-400-bk {
+  background-color: var(--color-neutral-400);
 }
 
-.main-light-gray {
-  color: var(--main-light-gray);
+.color-neutral-300 {
+  color: var(--color-neutral-300);
 }
 
-.main-light-gray-bk {
-  background-color: var(--main-light-gray);
+.color-neutral-300-bk {
+  background-color: var(--color-neutral-300);
 }
 
-.main-success {
-  color: var(--main-success);
+.color-success {
+  color: var(--color-success);
 }
 
-.main-success-bk {
-  background-color: var(--main-success);
+.color-success-bk {
+  background-color: var(--color-success);
 }
 
-.main-warning {
-  color: var(--main-warning);
+.color-warning {
+  color: var(--color-warning);
 }
 
-.main-warning-bk {
-  background-color: var(--main-warning);
+.color-warning-bk {
+  background-color: var(--color-warning);
 }
 
-.main-error {
-  color: var(--main-error);
+.color-error {
+  color: var(--color-error);
 }
 
-.main-error-bk {
-  background-color: var(--main-error);
+.color-error-bk {
+  background-color: var(--color-error);
 }

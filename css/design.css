@@ -7,7 +7,7 @@
   height: 62%;
   margin-bottom: 110px;
   border-right: solid;
-  border-color: var(--main-accent);
+  border-color: var(--color-accent);
   padding-top: 1rem;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .nav-list li {
-  color: var(--main-black);
+  color: var(--color-neutral-500);
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -33,34 +33,34 @@
 .navbar a {
   display: block;
   padding: 10px 30px;
-  color: var(--main-black);
+  color: var(--color-neutral-500);
   text-decoration: none;
   cursor: pointer;
 }
 
-.main-doc {
+.mps-doc {
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px;
 }
 
-.main-doc p {
+.mps-doc p {
   max-width: 1000px;
 }
 
-.main-section article {
-  color: var(--main-black);
+.mps-section article {
+  color: var(--color-neutral-500);
   margin: 15px;
   font-size: 0.96em;
 }
 
-.main-section .back {
+.mps-section .back {
   display: inline-block;
   padding: 1rem;
   margin: 1rem;
 }
 
-.main-section li {
+.mps-section li {
   margin: 15px 0px 0px 20px;
 }
 
@@ -81,7 +81,7 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 20%;
-  border-color: var(--main-light-gray);
+  border-color: var(--color-neutral-300);
 }
 
 /* Media */
@@ -94,7 +94,7 @@
   }
 
   .navbar {
-    background-color: var(--main-white);
+    background-color: var(--color-neutral-200);
     position: absolute;
     top: 0;
     padding: 0;
@@ -106,7 +106,7 @@
     border-bottom: 2px solid;
   }
 
-  .main-doc {
+  .mps-doc {
     position: relative;
     margin-left: 0px;
     margin-top: 270px;
@@ -115,11 +115,11 @@
 
 @media screen and (max-width: 575.98px) {
   /* Extra small devices (portrait phones, less than 576px) */
-  .main-doc {
+  .mps-doc {
     margin-left: -10px;
   }
 
-  .main-section code {
+  .mps-section code {
     margin-left: -20px;
     width: 100%;
     padding: 15px;
