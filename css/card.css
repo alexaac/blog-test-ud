@@ -29,6 +29,10 @@
   text-transform: uppercase;
 }
 
+.ms-post-link {
+  background-image: none;
+}
+
 .ms-post-author-date {
   display: flex;
   flex-wrap: wrap;

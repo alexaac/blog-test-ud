@@ -95,7 +95,7 @@
 /* Warning */
 
 .ms-btn-warning {
-  color: var(--main-pure-black);
+  color: var(--main-text-inverted);
   background: var(--main-warning);
 }
 
@@ -113,7 +113,7 @@
 }
 
 .ms-btn-warning-sec:hover {
-  color: var(--main-pure-black);
+  color: var(--main-text-inverted);
   background: var(--main-warning);
   border: none;
 }

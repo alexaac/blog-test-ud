@@ -17,11 +17,11 @@
   --main-gray: #4d4e53;
   --main-light-gray: #d7d7d7;
   --main-success: #4a8122;
-  --main-success-hover: #326d08;
+  --main-success-hover: #1b3609;
   --main-warning: #8b7306;
-  --main-warning-hover: #815f02;
+  --main-warning-hover: #503a04;
   --main-error: #c03344;
-  --main-error-hover: #6e0713;
+  --main-error-hover: #5a0710;
 }
 
 html,

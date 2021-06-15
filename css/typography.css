@@ -113,7 +113,7 @@ a,
   transition-duration: 0.3s;
 }
 
-a,
+a:hover,
 .ms-link:hover {
   background-size: 100% 1px, 100% 1px;
   text-decoration: none;
