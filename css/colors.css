@@ -25,12 +25,12 @@
   --color-text-inverted: #fff;
 
   /* tertiary colors */
-  --color-success: #4a8122;
+  --color-success: #4a8231;
   --color-success-hover: #1b3609;
   --color-warning: #8b7306;
   --color-warning-hover: #503a04;
-  --color-error: #c03344;
-  --color-error-hover: #5a0710;
+  --color-error: #d9394d;
+  --color-error-hover: #860b19;
 }
 
 html,

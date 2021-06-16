@@ -32,19 +32,19 @@
             <div class="nav-menu-wrap">
               <div role="list" class="nav-menu-list-flex">
                 <div role="listitem" class="nav-menu-item">
-                  <a href="#" class="nav-link mps-link">Latest</a>
+                  <a href="#" aria-label="blank link Latest" class="nav-link mps-link">Latest</a>
                 </div>
                 <div role="listitem" class="nav-menu-item">
-                  <a href="#" class="nav-link mps-link">Maps</a>
+                  <a href="#" aria-label="blank link Maps" class="nav-link mps-link">Maps</a>
                 </div>
                 <div role="listitem" class="nav-menu-item">
-                  <a href="#" class="nav-link mps-link">Dataviz</a>
+                  <a href="#" aria-label="blank link Dataviz" class="nav-link mps-link">Dataviz</a>
                 </div>
                 <div role="listitem" class="nav-menu-item">
-                  <a href="#" class="nav-link mps-link">Learning</a>
+                  <a href="#" aria-label="blank link Learning" class="nav-link mps-link">Learning</a>
                 </div>
                 <div role="listitem" class="nav-menu-item">
-                  <a href="design_system.html" class="nav-link mps-link"
+                  <a href="design_system.html" aria-label="Design link 1" class="nav-link mps-link"
                     >Design</a
                   >
                 </div>
@@ -54,10 +54,10 @@
           <div class="nav-menu-wrap nav-right">
             <div role="list" class="nav-menu-list-flex">
               <div role="listitem" class="nav-menu-item">
-                <a href="#" class="nav-link mps-link">Login</a>
+                <a href="#" aria-label="blank link Login" class="nav-link mps-link">Login</a>
               </div>
               <div role="listitem" class="nav-menu-item mps-subscribe">
-                <a href="#" class="mps-btn mps-btn-primary">Subscribe</a>
+                <a href="#" aria-label="blank link Subscribe" class="mps-btn mps-btn-primary">Subscribe</a>
               </div>
             </div>
           </div>
@@ -76,25 +76,25 @@
                   <div class="mps-author-info-flex">
                     <img class="mps-author-image" src="img/author.png" alt="Alexa Cristina">
                     <p>
-                      <a href="#">Alexa Cristina</a>
+                      <a href="#" aria-label="blank link 7">Alexa Cristina</a>
                       • <time datetime="2021-06-07T09:00:00+00:00" itemprop="datePublished">June 7, 2021</time> • 4 min read
                     </p>
                   </div>
                   <div role="list" class="article-tags">
                     <div role="listitem" class="article-tag">
-                      <a href="#" class="article-tag-link" rel="noopener noreferrer" target="_blank">3D</a>
+                      <a href="#" aria-label="blank link 8" class="article-tag-link" rel="noopener noreferrer" target="_blank">3D</a>
                     </div>
                     <div role="listitem" class="article-tag">
-                      <a href="#" class="article-tag-link" rel="noopener noreferrer" target="_blank">Maps</a>
+                      <a href="#" aria-label="blank link 9" class="article-tag-link" rel="noopener noreferrer" target="_blank">Maps</a>
                     </div>
                     <div role="listitem" class="article-tag">
-                      <a href="#" class="article-tag-link" rel="noopener noreferrer" target="_blank">LiDAR</a>
+                      <a href="#" aria-label="blank link 10" class="article-tag-link" rel="noopener noreferrer" target="_blank">LiDAR</a>
                     </div>
                     <div role="listitem" class="article-tag">
-                      <a href="#" class="article-tag-link" rel="noopener noreferrer" target="_blank">DEM</a>
+                      <a href="#" aria-label="blank link 11" class="article-tag-link" rel="noopener noreferrer" target="_blank">DEM</a>
                     </div>
                     <div role="listitem" class="article-tag">
-                      <a href="#" class="article-tag-link" rel="noopener noreferrer" target="_blank">WebGL</a>
+                      <a href="#" aria-label="blank link 12" class="article-tag-link" rel="noopener noreferrer" target="_blank">WebGL</a>
                     </div>
                   </div>
                 </div>
@@ -105,19 +105,19 @@
       </header>
 
       <main class="main">
-        <a href="#top" style="color: white" aria-label="Top of the page">
+        <a href="#top" aria-label="Top of the page">
           <button id="top-btn"> ˄ </button>
         </a>
         <div class="section first">
           <article class="article-container container">
             <div class="article-text">
-              <p>During <a href="https://twitter.com/hashtag/30DayMapChallenge">#30DayMapChallenge</a> I was hunting for 3D maps, and there it was: a post showing a flight over a mountain, made using an recently open-sourced library, <a href="https://www.procedural.eu/">Procedural GL JS</a>! Not Google, not Mapbox.. not MapLibre GL 🙂
+              <p>During <a href="https://twitter.com/hashtag/30DayMapChallenge" aria-label="30DayMapChallenge link">#30DayMapChallenge</a> I was hunting for 3D maps, and there it was: a post showing a flight over a mountain, made using an recently open-sourced library, <a href="https://www.procedural.eu/" aria-label="Procedural GL link">Procedural GL JS</a>! Not Google, not Mapbox.. not MapLibre GL 🙂
               </p>
               <p>
                 I will show some details about the library, and a few examples of my implementation. But first, a few words about 3D maps on the web.
               </p>
               <p>
-                This will be a somewhat technical post, if you are interested bear with me, if not, you can go directly to the <a href="#Showcase">Showcase</a> section and look at the beautiful pictures in the article, or enjoy the videos.
+                This will be a somewhat technical post, if you are interested bear with me, if not, you can go directly to the <a href="#Showcase" aria-label="Showcase link">Showcase</a> section and look at the beautiful pictures in the article, or enjoy the videos.
               </p>
               <p>
                 Also, this article is an example article, and must be further documented, sorry for possible mistakes.
@@ -126,17 +126,17 @@
                 Let's start with 3D maps
               </h2>
               <p>
-                They have been in the digital realm for a while, and on paper since ages. Even from the oldest times people have tried to represent the terrain in a 3D perspective, using different techniques, transposed into beautiful mountains profiles. Raised-relief maps have existed since the <a href="https://en.wikipedia.org/wiki/Raised-relief_map">Qin dynasty</a> (221–206 BCE) of China, and a Bronze Age slab found in France is the oldest 3D map in Europe, and is believed to date from the early <a href="https://www.bbc.com/news/world-europe-56648055">Bronze Age</a>, between 1900 BC and 1650 BC. Also, old topographical maps represented various forms of relief.
+                They have been in the digital realm for a while, and on paper since ages. Even from the oldest times people have tried to represent the terrain in a 3D perspective, using different techniques, transposed into beautiful mountains profiles. Raised-relief maps have existed since the <a href="https://en.wikipedia.org/wiki/Raised-relief_map" aria-label="Wikipedia raised relief">Qin dynasty</a> (221–206 BCE) of China, and a Bronze Age slab found in France is the oldest 3D map in Europe, and is believed to date from the early <a href="https://www.bbc.com/news/world-europe-56648055" aria-label="bbc">Bronze Age</a>, between 1900 BC and 1650 BC. Also, old topographical maps represented various forms of relief.
               </p>
               <div class="mps-container lg">
                 <div class="article-img-flex">
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/_117856764_rockthisone.jpg">
+                      <a href="img/post/_117856764_rockthisone.jpg" aria-label="img 1">
                         <img src="img/post/_117856764_rockthisone.jpg" alt="3D map in Europe">
                       </a>
                       <div class="article-img-desc">
-                        <a href="https://www.bbc.com/news/world-europe-56648055">bbc.com</a>
+                        <a href="https://www.bbc.com/news/world-europe-56648055" aria-label="img 2">bbc.com</a>
                       </div>
                       <div class="article-img-text">
                         Oldest bronze 3D map in Europe, 1900 BC - 1650 BC
@@ -145,11 +145,11 @@
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/carte.png">
+                      <a href="img/post/carte.png" aria-label="img 3">
                         <img src="img/post/carte.png" alt="Carte des Indes Orientales">
                       </a>
                       <div class="article-img-desc">
-                        <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~326565~90095122:Carte-des-Indes-Orientales-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:moon%20atlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=17&trs=1069#">davidrumsey.com</a>
+                        <a href="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~326565~90095122:Carte-des-Indes-Orientales-?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&qvq=q:moon%20atlas;sort:Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No;lc:RUMSEY~8~1&mi=17&trs=1069#" aria-label="img 4">davidrumsey.com</a>
                       </div>
                       <div class="article-img-text">
                         Carte des Indes Orientales, 1665.
@@ -158,11 +158,11 @@
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/_117860407_rock5.jpg">
+                      <a href="img/post/_117860407_rock5.jpg" aria-label="img 5">
                         <img src="img/post/topo.png" alt="Topographical Map of Ancient Rome">
                       </a>
                       <div class="article-img-desc">
-                        <a href="https://www.nga.gov/collection/art-object-page.112707.html">nga.gov</a>
+                        <a href="https://www.nga.gov/collection/art-object-page.112707.html" aria-label="img 6">nga.gov</a>
                       </div>
                       <div class="article-img-text">
                         Topographical Map of Ancient Rome, 1557.
@@ -176,17 +176,17 @@
                 If we refer only to digital Cartography, there are many proprietary as well as open-source applications that can create a 3D map view starting from the terrain elevation, most reknowned being ESRI's ArcGIS and QGIS.
               </p>
               <p>
-                Modern 3D cartography maps are created using 3D models from local measurements of the terrain, high resolution photography, or from satellite immagery and aerial photography. Below you can see beautiful images of <a href="https://washingtonstategeology.wordpress.com/2021/06/02/high-resolution-lidar-images-of-washingtons-geology-now-freely-available/">Washington state geology</a>, derived from LiDAR cloud point data. And a 3D model of <a href="https://www.nytimes.com/interactive/2015/01/09/sports/the-dawn-wall-el-capitan.html?ref=sports">El Capitan</a>, from a LiDAR scan consisting of over <a href="https://www.nytimes.com/times-insider/2015/01/20/scaling-el-capitan-for-your-browser/">36 million points</a>.
+                Modern 3D cartography maps are created using 3D models from local measurements of the terrain, high resolution photography, or from satellite immagery and aerial photography. Below you can see beautiful images of <a href="https://washingtonstategeology.wordpress.com/2021/06/02/high-resolution-lidar-images-of-washingtons-geology-now-freely-available/" aria-label="article 1">Washington state geology</a>, derived from LiDAR cloud point data. And a 3D model of <a href="https://www.nytimes.com/interactive/2015/01/09/sports/the-dawn-wall-el-capitan.html?ref=sports" aria-label="article 2">El Capitan</a>, from a LiDAR scan consisting of over <a href="https://www.nytimes.com/times-insider/2015/01/20/scaling-el-capitan-for-your-browser/" aria-label="article 3">36 million points</a>.
               </p>
               <div class="mps-container lg">
                 <div class="article-img-block lg">
                   <div class="article-img orig">
-                    <a href="img/posts/wash_hires.png">
+                    <a href="img/posts/wash_hires.png" aria-label="img 7">
                       <img src="img/posts/wash_hires.png" alt="Washington High Resolution Images">
                     </a>
                   </div>
                   <div class="article-img-desc">
-                    <a href="https://washingtonstategeology.wordpress.com/2021/06/02/high-resolution-lidar-images-of-washingtons-geology-now-freely-available/">washingtonstategeology</a>
+                    <a href="https://washingtonstategeology.wordpress.com/2021/06/02/high-resolution-lidar-images-of-washingtons-geology-now-freely-available/" aria-label="img 8">washingtonstategeology</a>
                   </div>
                   <div class="article-img-text">
                     High-resolution lidar images of Washington’s geology.
@@ -196,12 +196,12 @@
               <div class="mps-container md">
                 <div class="article-img-block lg">
                   <div class="article-img orig">
-                    <a href="img/post/elcap4-blog480.png">
+                    <a href="img/post/elcap4-blog480.png" aria-label="img 9">
                       <img src="img/post/elcap4-blog480.png" alt="El Capitan 3D model">
                     </a>
                   </div>
                   <div class="article-img-desc">
-                    <a href="https://www.nytimes.com/times-insider/2015/01/20/scaling-el-capitan-for-your-browser/">nytimes.com</a>
+                    <a href="https://www.nytimes.com/times-insider/2015/01/20/scaling-el-capitan-for-your-browser/" aria-label="img 10">nytimes.com</a>
                   </div>
                   <div class="article-img-text">
                     El Capitan’s most challenging pitch, the Dawn Wall, 3D.
@@ -209,77 +209,77 @@
                 </div>
               </div>
               <p>
-                Below are some examples of 3D visualizations of <a href="https://en.wikipedia.org/wiki/Lidar">LiDAR</a> data using <a href="https://pdal.io/index.html">PDAL</a> for point cloud processing and <a href="https://entwine.io/quickstart.html">Entwine</a> (a webGL based library) and <a href="http://potree.org/getting_started.html">Potree</a> to render the models in the browser.
+                Below are some examples of 3D visualizations of <a href="https://en.wikipedia.org/wiki/Lidar" aria-label="Wikipedia LiDAR">LiDAR</a> data using <a href="https://pdal.io/index.html" aria-label="PDAL">PDAL</a> for point cloud processing and <a href="https://entwine.io/quickstart.html" aria-label="Entwine">Entwine</a> (a webGL based library) and <a href="http://potree.org/getting_started.html" aria-label="Potree">Potree</a> to render the models in the browser.
               </p>
 
               <div class="mps-container lg">
                 <div class="article-img-flex gallery">
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l1.png">
+                      <a href="img/post/l1.png" aria-label="img Yosemite 1">
                         <img src="img/post/l1.png" alt="Yosemite Valley 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l2.png">
+                      <a href="img/post/l2.png" aria-label="img Yosemite 2">
                         <img src="img/post/l2.png" alt="Yosemite Valley 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l3.png">
+                      <a href="img/post/l3.png" aria-label="img Yosemite 3">
                         <img src="img/post/l3.png" alt="Yosemite Valley 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l4.png">
+                      <a href="img/post/l4.png" aria-label="img Yosemite 4">
                         <img src="img/post/l4.png" alt="Yosemite Valley 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l5.png">
+                      <a href="img/post/l5.png" aria-label="img Yosemite 5">
                         <img src="img/post/l5.png" alt="Yosemite Valley 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l6.png">
+                      <a href="img/post/l6.png" aria-label="img Dublin 1">
                         <img src="img/post/l6.png" alt="Dublin 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l7.png">
+                      <a href="img/post/l7.png" aria-label="img Dublin 2">
                         <img src="img/post/l7.png" alt="Dublin 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l8.png">
+                      <a href="img/post/l8.png" aria-label="img Dublin 3">
                         <img src="img/post/l8.png" alt="Dublin 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l9.png">
+                      <a href="img/post/l9.png" aria-label="img Dublin 4">
                         <img src="img/post/l9.png" alt="Dublin 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/l10.png">
+                      <a href="img/post/l10.png" aria-label="img Dublin 5">
                         <img src="img/post/l10.png" alt="Dublin 3D">
                       </a>
                     </div>
@@ -289,10 +289,10 @@
 
               <h3>Triangulation</h3>
               <p>
-                Usually, a 3D map is created from a series of points that contain the terrain elevation in metres, which are processed into a <em>triangulated irregular network (TIN)</em> using specific algorithms based on the <a href="http://wiki.gis.com/wiki/index.php/Delaunay_triangulation">Delaunay criterion</a> and the <a href="http://vulnerablevancouver.ca/wp/?p=152">Voronoi tesselation</a>. Further, this model can be smoothed, and an aerial image can be drapped over it, and this is the 3D terrain view from Google or Here!
+                Usually, a 3D map is created from a series of points that contain the terrain elevation in metres, which are processed into a <em>triangulated irregular network (TIN)</em> using specific algorithms based on the <a href="http://wiki.gis.com/wiki/index.php/Delaunay_triangulation" aria-label="Wiki triangulation">Delaunay criterion</a> and the <a href="http://vulnerablevancouver.ca/wp/?p=152" aria-label="Wiki Voronoi">Voronoi tesselation</a>. Further, this model can be smoothed, and an aerial image can be drapped over it, and this is the 3D terrain view from Google or Here!
               </p>
               <p>
-                Many sensors used in GIS applications (for example LIDAR), generate dense point clouds. Such applications often take advantage of more advanced data structures: for example, Triangulated Irregular Networks (TIN) that can be the base for Digital Evelation Models (DEM) and in particular for the generation of Digital Terrain Models (DTM). Point clouds can also be enriched by classification information that segments the points into ground, vegetation and building points (or other user-defined labels). [ <a href="https://doc.cgal.org/latest/Manual/tuto_gis.html">src</a>  ]
+                Many sensors used in GIS applications (for example LIDAR), generate dense point clouds. Such applications often take advantage of more advanced data structures: for example, Triangulated Irregular Networks (TIN) that can be the base for Digital Evelation Models (DEM) and in particular for the generation of Digital Terrain Models (DTM). Point clouds can also be enriched by classification information that segments the points into ground, vegetation and building points (or other user-defined labels). [ <a href="https://doc.cgal.org/latest/Manual/tuto_gis.html" aria-label="digital models">src</a>  ]
                 </p>
                 <p>
                   The specific data structures used for obtaining 3D models are:
@@ -319,7 +319,7 @@
                       <img src="img/post/220px-Delaunay-Triangulation.png" alt="Delaunay Triangulation">
                     </div>
                     <div class="article-img-desc">
-                      <a href="https://en.wikipedia.org/wiki/Triangulated_irregular_network">wikipedia.org</a>
+                      <a href="https://en.wikipedia.org/wiki/Triangulated_irregular_network" aria-label="wikipedia">wikipedia.org</a>
                     </div>
                     <div class="article-img-text">
                       Triangulated irregular network.
@@ -330,7 +330,7 @@
                       <img src="img/post/220px-Digitale_modell.png" alt="Digital Model">
                     </div>
                     <div class="article-img-desc">
-                      <a href="https://en.wikipedia.org/wiki/Triangulated_irregular_network">wikipedia.org</a>
+                      <a href="https://en.wikipedia.org/wiki/Triangulated_irregular_network"  aria-label="wikipedia 1">wikipedia.org</a>
                     </div>
                     <div class="article-img-text">
                       TIN overlaid with contour lines.
@@ -341,7 +341,7 @@
                       <img src="img/post/220px-Maps-for-free_Sierra_Nevada.png" alt="Digital Model">
                     </div>
                     <div class="article-img-desc">
-                      <a href="https://en.wikipedia.org/wiki/Digital_elevation_model">wikipedia.org</a>
+                      <a href="https://en.wikipedia.org/wiki/Digital_elevation_model" aria-label="wikipedia 2">wikipedia.org</a>
                     </div>
                     <div class="article-img-text">
                       Relief map of Spain's Sierra Nevada, shading and false color indicate elevation.
@@ -355,7 +355,7 @@
                 If we go further, ArcGIS Online, CesiumJS, VTS Geospatial, iTowns, MapBox can render 3D maps in the browser. And the gaming applications. We will see a lot of 3D mapping for the web revolves around the WebGL API.
               </p>
               <p>
-                <a href="https://www.khronos.org/webgl/wiki">WebGL</a> is a web based OpenGL API written in JavaScript. It can render 3D models of a terrain transposing the real world coordinates into screen coordinates (projecting the polygons - like any mapping software).
+                <a href="https://www.khronos.org/webgl/wiki" aria-label="WebGL">WebGL</a> is a web based OpenGL API written in JavaScript. It can render 3D models of a terrain transposing the real world coordinates into screen coordinates (projecting the polygons - like any mapping software).
               </p>
               <figure class="mps-article">
                 <blockquote cite="https://en.wikipedia.org/wiki/WebGL">
@@ -382,12 +382,12 @@
               <div class="mps-container md">
                 <div class="article-img-block md">
                   <div class="article-img orig">
-                    <a href="img/post/400px-UVMapping.png">
+                    <a href="img/post/400px-UVMapping.png" aria-label="UV Mapping">
                       <img src="img/post/400px-UVMapping.png" alt="UV Mapping">
                     </a>
                   </div>
                   <div class="article-img-desc">
-                    <a href="https://en.wikipedia.org/wiki/UV_mapping">wikipedia.org</a>
+                    <a href="https://en.wikipedia.org/wiki/UV_mapping" aria-label="UV Mapping 1">wikipedia.org</a>
                   </div>
                   <div class="article-img-text">
                     The application of a texture in the UV space related to the effect in 3D.
@@ -395,17 +395,17 @@
                 </div>
               </div>
               <p>
-                There are several <a href="https://en.wikipedia.org/wiki/List_of_WebGL_frameworks">frameworks</a> that make working with WebGL easier, most of them written in JavaScript, like <a href="https://en.wikipedia.org/wiki/Three.js">Three.js</a>, <a href="https://en.wikipedia.org/wiki/Babylon.js">Babylon.js</a>, <a href="https://docs.mapbox.com/mapbox-gl-js/api/">MapBox GL</a>, <a href="https://cesium.com/platform/cesiumjs/">CesiumJS</a>, <a href="https://www.npmjs.com/package/maplibre-gl">MapLibre GL</a>, and <a href="https://en.wikipedia.org/wiki/Unity_(game_engine)">Unity game engine</a>(C#).
+                There are several <a href="https://en.wikipedia.org/wiki/List_of_WebGL_frameworks" aria-label="WebGL frameworks">frameworks</a> that make working with WebGL easier, most of them written in JavaScript, like <a href="https://en.wikipedia.org/wiki/Three.js" aria-label="Three.js">Three.js</a>, <a href="https://en.wikipedia.org/wiki/Babylon.js" aria-label="Babylon.js">Babylon.js</a>, <a href="https://docs.mapbox.com/mapbox-gl-js/api/" aria-label="MapBox">MapBox GL</a>, <a href="https://cesium.com/platform/cesiumjs/" aria-label="Cesium">CesiumJS</a>, <a href="https://www.npmjs.com/package/maplibre-gl" aria-label="MapLibre">MapLibre GL</a>, and <a href="https://en.wikipedia.org/wiki/Unity_(game_engine)" aria-label="Unity">Unity game engine</a>(C#).
               </p>
               <p>
-                Here is a comprehensive <a href="https://www.libhunt.com/t/webgl">list of open-source projects</a> categorized as Webgl. There are many open-source projects, but we must be aware that at any moment they could go closed-source, or you may need to pay for specific services to use the library at its full potential.
+                Here is a comprehensive <a href="https://www.libhunt.com/t/webgl" aria-label="library list">list of open-source projects</a> categorized as Webgl. There are many open-source projects, but we must be aware that at any moment they could go closed-source, or you may need to pay for specific services to use the library at its full potential.
               </p>
               <p>
                 Now, that you have seen some of the alternatives for rendering 3D maps on the web, let's get back to the new (open-source) kid in town, Procedural GL JS.
               </p>
               <h2>Procedural GL JS</h2>
               <p>
-                Felix Palmer, the creator of <a href="https://www.procedural.eu/">Procedural GL JS</a>, came with this surprise near the end on #30DayMapChallenge on Twitter, when the challenge was to make a map with a new tool. Right in time!
+                Felix Palmer, the creator of <a href="https://www.procedural.eu/" aria-label="Procedural GL">Procedural GL JS</a>, came with this surprise near the end on #30DayMapChallenge on Twitter, when the challenge was to make a map with a new tool. Right in time!
               </p>
               <figure class="mps-article">
                 <blockquote cite="https://twitter.com/pheeelicks/status/1329806806034558978">
@@ -416,7 +416,7 @@
                 <figcaption>—Felix Palmer, <cite>#30DayMapChallenge on Twitter</cite>
               </figure>
               <p>
-                Below, you can find some details about the library, from the <a href="https://reposhub.com/javascript/maps/felixpalmer-procedural-gl-js.html">documentation</a>. And here is the <a href="https://github.com/felixpalmer/procedural-gl-js">GitHub repository</a>.
+                Below, you can find some details about the library, from the <a href="https://reposhub.com/javascript/maps/felixpalmer-procedural-gl-js.html" aria-label="Procedural GL documentation">documentation</a>. And here is the <a href="https://github.com/felixpalmer/procedural-gl-js" aria-label="Procedural GL repo">GitHub repository</a>.
               </p>
               <p>Procedural GL JS is a library for creating 3D map experiences on the web, written in JavaScript and WebGL. It is built on top THREE.js.
 
@@ -446,8 +446,7 @@
               </p>
 
               <h3>Usage</h3>
-              <pre class="ft-syntax-highlight" data-syntax="js" data-ui-theme="dark" data-syntax-theme="one-dark" data-showTooltips="true">
-                <code>
+              <code class="mps-code" tabindex="0">
       <span class="keyword">import</span> <span class="identifier-class">Procedural</span> <span class="keyword">from</span> 'procedural-gl';
 
       <span class="comment">// Choose a DOM element into which the library should render</span>
@@ -464,8 +463,8 @@
       <span class="keyword">const</span> <span class="identifier">montBlanc</span> = { latitude: <span class="unit">45.8326364</span>, longitude: <span class="unit">6.8564201</span> };
       <span class="identifier-class">Procedural</span>.<span class="identifier-udf">displayLocation</span>( <span class="unit">montBlanc</span> );
 
-                </code>
-              </pre>
+              </code>
+
 
               <h3>Screenshots</h3>
               <p>
@@ -473,35 +472,35 @@
                   <div class="article-img-flex">
                     <div class="article-img-block sm">
                       <div class="article-img">
-                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/1.jpg">
+                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/1.jpg" aria-label="screenshot link 1">
                           <img src="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/1.jpg" alt="3D mountain screenshot">
                         </a>
                       </div>
                     </div>
                     <div class="article-img-block sm">
                       <div class="article-img">
-                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/2.jpg">
+                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/2.jpg" aria-label="screenshot link 2">
                           <img src="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/2.jpg" alt="3D mountain screenshot">
                         </a>
                       </div>
                     </div>
                     <div class="article-img-block sm">
                       <div class="article-img">
-                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/3.jpg">
+                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/3.jpg" aria-label="screenshot link 3">
                           <img src="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/3.jpg" alt="3D mountain screenshot">
                         </a>
                       </div>
                     </div>
                     <div class="article-img-block sm">
                       <div class="article-img">
-                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/4.jpg">
+                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/4.jpg" aria-label="screenshot link 4">
                           <img src="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/4.jpg" alt="3D mountain screenshot">
                         </a>
                       </div>
                     </div>
                     <div class="article-img-block sm">
                       <div class="article-img">
-                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/5.jpg">
+                        <a href="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/5.jpg" aria-label="screenshot link 5">
                           <img src="https://raw.githubusercontent.com/felixpalmer/procedural-gl-js/main/screenshots/5.jpg" alt="3D mountain screenshot">
                         </a>
                       </div>
@@ -533,6 +532,7 @@
                 </label>
                 <video id="3D_mountain_video_1" controls="controls">
                   <source src="img/post/test1.mp4" type="video/mp4">
+                  <track src="" kind="captions" srclang="" label="">
                 </video>
               </div>
               <div class="mps-video w-iframe">
@@ -541,6 +541,7 @@
                 </label>
                 <video id="3D_mountain_video_2" controls="controls">
                   <source src="img/post/test.mp4" type="video/mp4">
+                  <track src="" kind="captions" srclang="" label="">
                 </video>
               </div>
 
@@ -548,56 +549,56 @@
                 <div class="article-img-flex gallery">
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p1.png">
+                      <a href="img/post/p1.png" aria-label="Cheile Aiudului link 1">
                         <img src="img/post/p1.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p2.png">
+                      <a href="img/post/p2.png" aria-label="Cheile Aiudului link 2">
                         <img src="img/post/p2.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p3.png">
+                      <a href="img/post/p3.png" aria-label="Cheile Aiudului link 3">
                         <img src="img/post/p3.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p4.png">
+                      <a href="img/post/p4.png" aria-label="Cheile Aiudului link 4">
                         <img src="img/post/p4.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p5.png">
+                      <a href="img/post/p5.png" aria-label="Cheile Aiudului link 5">
                         <img src="img/post/p5.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p6.png">
+                      <a href="img/post/p6.png" aria-label="Cheile Aiudului link 6">
                         <img src="img/post/p6.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p7.png">
+                      <a href="img/post/p7.png" aria-label="Cheile Aiudului link 7">
                         <img src="img/post/p7.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
                   </div>
                   <div class="article-img-block sm">
                     <div class="article-img">
-                      <a href="img/post/p8.png">
+                      <a href="img/post/p8.png" aria-label="Cheile Aiudului link 8">
                         <img src="img/post/p8.png" alt="Cheile Aiudului 3D">
                       </a>
                     </div>
@@ -616,6 +617,7 @@
                 href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falexaac.github.io%2Fmapstuff%2Fpost.html"
                 target="_blank" rel="noopener noreferrer"
                 class="mps-social"
+                aria-label="Facebook share link"
               >
                 <img src="img/facebook.svg" alt="Facebook" />
               </a>
@@ -623,6 +625,7 @@
                 href="https://twitter.com/intent/tweet?source=https%3A%2F%2Falexaac.github.io%2Fmapstuff%2Fpost.html&amp;text=Procedural GL JS:%20https%3A%2F%2Falexaac.github.io%2Fmapstuff%2Fpost.html"
                 target="_blank" rel="noopener noreferrer"
                 class="mps-social"
+                aria-label="Twitter share link"
               >
                 <img src="img/twitter.svg" alt="Twitter" />
               </a>
@@ -630,6 +633,7 @@
                 href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Falexaac.github.io%2Fmapstuff%2Fpost.html"
                 target="_blank" rel="noopener noreferrer"
                 class="mps-social"
+                aria-label="Linkedin share link"
               >
                 <img src="img/linkedin.svg" alt="Linkedin" />
               </a>
@@ -646,7 +650,7 @@
           <img class="mps-author-image post" src="img/author.png" alt="Alexa Cristina">
           <p>
             <div class="article-footer-author-info">
-              <a href="#">
+              <a href="#" aria-label="blank link 1">
                 <span class="title">Alexa Cristina</span>
               </a>
               <p>Data Wizard at AlexaC</p>
@@ -656,6 +660,7 @@
                   target="_blank" rel="noopener noreferrer"
                   rel="noreferrer noopener"
                   class="mps-social"
+                  aria-label="Twitter link author"
                 >
                   <img src="img/twitter.svg" alt="Twitter" />
                 </a>
@@ -687,7 +692,7 @@
               <h2>Related Posts</h2>
               <div role="list" class="mps-post-recent-grid">
                 <div role="listitem">
-                  <a href="post.html" class="img-link  mps-inline-block">
+                  <a href="post.html" aria-label="post link 1" class="img-link  mps-inline-block">
                     <div class="post-img-wrap pointer-events-none">
                       <div class="post-img-wrap-in">
                         <img src="img/posts/munich_leica.png" alt="Munich 3D Map from LiDAR" class="post-img">
@@ -696,7 +701,7 @@
                   </a>
                   <div class="mps-post-info-flex">
                     <span class="mps-post-category">LiDAR</span>
-                    <a href="post.html" class="mps-inline-block mps-post-link">
+                    <a href="post.html" aria-label="post link 2" class="mps-inline-block mps-post-link">
                       <h3>Leica CityMapper-2</h3>
                       <p>
                         Munich - Leica CityMapper 2: DSM, 3D Mesh and GIS Layers.
@@ -705,14 +710,14 @@
                     <div class="mps-author-info-flex">
                       <img class="mps-author-image" src="img/author.png" alt="Alexa Cristina">
                       <p>
-                        <a href="#">Alexa Cristina</a>
+                        <a href="#" aria-label="blank link 2">Alexa Cristina</a>
                         • <time datetime="2021-06-07T09:00:00+00:00" itemprop="datePublished">April 12, 2021</time> • 6 min read
                       </p>
                     </div>
                   </div>
                 </div>
                 <div role="listitem">
-                  <a href="post.html" class="img-link  mps-inline-block">
+                  <a href="post.html" aria-label="post link 3" class="img-link  mps-inline-block">
                     <div class="post-img-wrap pointer-events-none">
                       <div class="post-img-wrap-in">
                         <img src="img/posts/yose_li.png" alt="Yosemite Valley 3D Map from LiDAR" class="post-img">
@@ -721,7 +726,7 @@
                   </a>
                   <div class="mps-post-info-flex">
                     <span class="mps-post-category">LiDAR</span>
-                    <a href="post.html" class="mps-inline-block mps-post-link">
+                    <a href="post.html" aria-label="post link 4" class="mps-inline-block mps-post-link">
                       <h3>Yosemite Climbing Walls</h3>
                       <p>
                         Yosemite climbing walls from LiDAR, using PDAL and ArcGIS.
@@ -730,14 +735,14 @@
                     <div class="mps-author-info-flex">
                       <img class="mps-author-image" src="img/author.png" alt="Alexa Cristina">
                       <p>
-                        <a href="#">Alexa Cristina</a>
+                        <a href="#" aria-label="blank link 3">Alexa Cristina</a>
                         • <time datetime="2021-06-07T09:00:00+00:00" itemprop="datePublished">May 20, 2020</time> • 5 min read
                       </p>
                     </div>
                   </div>
                 </div>
                 <div role="listitem">
-                  <a href="post.html" class="img-link  mps-inline-block">
+                  <a href="post.html" aria-label="post link 5" class="img-link  mps-inline-block">
                     <div class="post-img-wrap pointer-events-none">
                       <div class="post-img-wrap-in">
                         <img src="img/posts/dublin.png" alt="Dublin 3D Map from LiDAR" class="post-img">
@@ -746,7 +751,7 @@
                   </a>
                   <div class="mps-post-info-flex">
                     <span class="mps-post-category">LiDAR</span>
-                    <a href="post.html" class="mps-inline-block mps-post-link">
+                    <a href="post.html" aria-label="post link 6" class="mps-inline-block mps-post-link">
                       <h3>LiDAR Experiments – Dublin</h3>
                       <p>
                         Playing with LiDAR point clouds - PDAL, Entwine and QGIS.
@@ -755,7 +760,7 @@
                     <div class="mps-author-info-flex">
                       <img class="mps-author-image" src="img/author.png" alt="Alexa Cristina">
                       <p>
-                        <a href="#">Alexa Cristina</a>
+                        <a href="#" aria-label="blank link 4">Alexa Cristina</a>
                         • <time datetime="2021-06-07T09:00:00+00:00" itemprop="datePublished">June 7, 2021</time> • 4 min read
                       </p>
                     </div>
@@ -792,9 +797,9 @@
           <div class="footer-inner-flex">
             <div class="footer-inner-flex-2">
               <div>© MapStuff 2021</div>
-              <a href="#" class="footer-link mps-link">Terms</a>
-              <a href="#" class="footer-link mps-link">Privacy</a>
-              <a href="design_system.html" class="footer-link mps-link"
+              <a href="#" aria-label="blank link 5" class="footer-link mps-link">Terms</a>
+              <a href="#" aria-label="blank link 6" class="footer-link mps-link">Privacy</a>
+              <a href="design_system.html" aria-label="Design link" class="footer-link mps-link"
                 >Design</a
               >
             </div>

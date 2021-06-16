@@ -27,7 +27,9 @@ Utilize HTML and CSS skills to build out a personal blog website, including cust
 - Typography:
   - [Type Scale](https://type-scale.com/)
   - [Google Fonts](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
-- Accessibility: [tota11y](https://addons.mozilla.org/en-US/firefox/addon/tota11y-accessibility-toolkit/)
+- Accessibility:
+  - [tota11y](https://addons.mozilla.org/en-US/firefox/addon/tota11y-accessibility-toolkit/)
+  - [Axe](https://www.deque.com/axe/)
 
 8.  Compare to the initial sketches, and iterate
 9.  Set links between pages
@@ -35,7 +37,13 @@ Utilize HTML and CSS skills to build out a personal blog website, including cust
 
 ### TODO
 
-GDPR consent box, add comment form, categories dropdown, search by tags.
+GDPR consent box, add comment form, categories dropdown, search by tags, another syntax highlighter.
+
+### Note
+
+Using Chrome Dev Tools with Axe extension, there will be false positive results for the issue 'Elements must have sufficient color contrast', for elements that have gradients or images as background.
+
+Disable the background gradient for links in typography.css, to test fewer issues.
 
 ### Credits
 

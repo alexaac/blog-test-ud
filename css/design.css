@@ -65,11 +65,19 @@
   margin: 15px 0px 0px 20px;
 }
 
-.items-group {
+.items-group-columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-group-rows {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+}
+
+.items-item {
+  margin: 0.2rem;
 }
 
 .items-img {
