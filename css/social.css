@@ -24,8 +24,7 @@
 
 .mps-social-grid-wrap {
   max-width: 240px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .mps-social:hover {

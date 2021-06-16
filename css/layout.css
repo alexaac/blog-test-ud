@@ -21,8 +21,7 @@
 /* Inner container */
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 992px; /* Medium devices (tablets, 768px and up) */
 }
 
@@ -44,8 +43,7 @@
 
 .mps-container {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .mps-container.bd {
@@ -54,11 +52,11 @@
 }
 
 .mps-container.sm {
-  max-width: 300px;
+  max-width: 310px;
 }
 
 .mps-container.md {
-  max-width: 600px;
+  max-width: 620px;
 }
 
 .mps-container.lg {

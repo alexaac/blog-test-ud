@@ -49,8 +49,7 @@
 
   padding: 20px;
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* Navigation Toggle Mobile Button */
@@ -99,9 +98,9 @@
   /* Small and medium devices (tablets, 768px and up) */
   .nav-flex {
     position: fixed;
-    left: 0%;
-    top: 0%;
-    right: 0%;
+    left: 0;
+    top: 0;
+    right: 0;
     bottom: auto;
     z-index: 10;
     border-bottom-style: solid;

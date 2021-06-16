@@ -3,8 +3,7 @@
 /* Article footer */
 .article-footer-container {
   max-width: 555px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -30,6 +29,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  font-size: 0.8rem;
   padding: 1rem 0;
 }
 
@@ -62,8 +62,7 @@
   position: relative;
   width: 100%;
   max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 /* Hero image and content */
@@ -133,13 +132,14 @@ video {
 /* Article images */
 .article-img-flex {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .article-img-flex.gallery {
   max-width: 1100px;
   overflow: auto;
+  flex-wrap: nowrap;
   justify-content: initial;
 }
 
@@ -152,7 +152,7 @@ video {
   flex-direction: column;
   border: 1px solid var(--color-neutral-300);
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   min-width: 220px;
   flex: 0 0 auto;
 }
@@ -173,8 +173,7 @@ video {
 
 .article-img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .article-img img {
@@ -185,8 +184,7 @@ video {
 
 .article-img.orig img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   height: initial;
 }
 
@@ -209,27 +207,34 @@ video {
 .article-text {
   max-width: 1000px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .article-text p,
 .article-text ul {
   max-width: 800px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
 }
 
 @media screen and (max-width: 575.98px) {
   /* Extra small devices (portrait phones, less than 576px) */
   .article-tags {
-    flex-direction: column;
-  }
-
-  .article-tags-wrap {
     overflow: hidden;
     max-width: 100%;
+    padding: 0 0 1rem 0;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  /* Small and medium devices */
+  .article-img-flex {
+    flex-wrap: wrap;
+  }
+
+  .article-img-flex.gallery {
+    flex-wrap: nowrap;
   }
 }
 
