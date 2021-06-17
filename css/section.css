@@ -49,10 +49,10 @@ section {
   }
 
   .section.first {
-    padding-top: 1rem;
+    padding-top: 4rem;
   }
 
   .section.last {
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
   }
 }

@@ -73,7 +73,7 @@
   height: 646px;
   max-height: 80vh;
   min-height: 400px;
-  background-image: url("../img/posts/post_img.png");
+  background-image: url(../img/post_img.png);
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,13 +226,15 @@
   margin: 1rem auto;
 }
 
-@media screen and (max-width: 575.98px) {
-  /* Extra small devices (portrait phones, less than 576px) */
-  .article-tags {
-    overflow: hidden;
-    max-width: 100%;
-    padding: 0 0 1rem 0;
-    font-size: 0.6rem;
+@media screen and (min-width: 1440px) {
+  .article-container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .article-container {
+    max-width: 800px;
   }
 }
 
@@ -245,16 +247,18 @@
   .article-img-flex.gallery {
     flex-wrap: nowrap;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .article-container {
-    max-width: 800px;
+  .article-hero {
+    background-image: url(../img/post_img_992.png);
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .article-container {
-    max-width: 800px;
+@media screen and (max-width: 575.98px) {
+  /* Extra small devices (portrait phones, less than 576px) */
+  .article-tags {
+    overflow: hidden;
+    max-width: 100%;
+    padding: 0 0 1rem 0;
+    font-size: 0.6rem;
   }
 }
