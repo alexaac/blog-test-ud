@@ -95,11 +95,20 @@
 .mps-video {
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block;
+  margin: 1rem;
 }
 
-video {
+.mps-iframe-wrap {
+  padding: 60% 0 0 0;
+  position: relative;
+}
+
+.mps-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
 }
 
 /* Page navigation */
